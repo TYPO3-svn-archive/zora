@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang_ZoraFlexForm.xml:savedSearchBE.sheetTitle</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+			<refreshTime>
+				<TCEforms>
+					<label>LLL:EXT:zora/Resources/Private/Language/locallang_ZoraFlexForm.xml:savedSearchBE.refreshTime</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+						<max>5</max>
+						<eval>int</eval>
+					</config>
+				</TCEforms>
+			</refreshTime>
+			<searchId>
+				<TCEforms>
+					<label>LLL:EXT:zora/Resources/Private/Language/locallang_ZoraFlexForm.xml:savedSearchBE.zoraSearchId</label>
+					<config>
+						<type>input</type>
+						<size>5</size>
+						<max>5</max>
+						<eval>required</eval>
+					</config>
+				</TCEforms>
+			</searchId>
+		</el>
+	</ROOT>
+</T3DataStructure>	

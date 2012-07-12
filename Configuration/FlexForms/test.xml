@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<main>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Lhaha		</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.message>
+						<TCEforms>
+							<label>klkjlkjj
+							</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.message>
+				</el>
+			</ROOT>
+		</main>
+	</sheets>
+</T3DataStructure>

@@ -1,0 +1,9 @@
+<f:section name="authors">
+	<f:for each="{authors}" as="author" iteration="iterator">
+		<a href="{author.link}"><span class="person_name">{author.author}</span></a>
+		<f:if condition="{iterator.isLast}">
+			<f:then></f:then>
+			<f:else>;&nbsp</f:else>
+		</f:if>
+	</f:for>
+</f:section>

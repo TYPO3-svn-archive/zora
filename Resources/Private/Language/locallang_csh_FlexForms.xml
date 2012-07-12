@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Context Sensitive Help (CSH) for table tx_zora_domain_model_zora</description>
+		<type>CSH</type>
+		<csh_table></csh_table>
+		<fileId>EXT:zora/Resources/Private/Language/locallang_csh_FlexForm.xml</fileId>
+		<labelContext type="array"></labelContext>
+	</meta>
+	<data type="array">
+	<languageKey index="default" type="array">
+			<label index="refreshTime.description">Refresh Time in (sec)</label>
+			<label index="title.description">Search Title</label>
+			<label index="title.alttitle">alttitle Search in Title</label>
+			<label index="title.details">details Search in Title</label>
+			<label index="title.syntax">syntax Search in Title</label>
+			  
+		</languageKey>
+	</data>
+</T3locallang>

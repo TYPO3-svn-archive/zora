@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'zora'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="zoraQueryFE.sheetTitle">Select Zora query type</label>
+			<label index="zoraQueryFE.queryTitle">Select Zora query type</label>
+
+			<label index="savedSearchBE.sheetTitle">Switch between saved and advanced search</label>
+			<label index="savedSearchBE.refreshTime">Refresh Time (in sec)</label>
+			<label index="savedSearchBE.flexFormData">Search Parameter</label>
+			<label index="savedSearchBE.zoraSearchId">Zora Search ID</label>
+
+			<label index="advancedSearchBE.sheetTitle">Advanced Zora Search</label>
+			<label index="advancedSearchBE.refreshTime">Refresh Time (in sec)</label>
+			<label index="advancedSearchBE.searchTitle">Search in Title</label>
+			<label index="advancedSearchBE.creators">Search Creators</label>
+			<label index="advancedSearchBE.fullText">Search in Full Text</label>
+			<label index="advancedSearchBE.itemTypes">Item Type</label>
+
+			<label index="zoraFlexFormBE.generalTitle">General</label>
+			<label index="zoraFlexFormBE.generalQueryType">Query type</label>
+			<label index="zoraFlexFormBE.generalQueryTypeSelect">Select ...</label>
+			<label index="zoraFlexFormBE.generalQueryTypeSavedSearch">Saved search id</label>
+			<label index="zoraFlexFormBE.generalQueryTypeAdvancedSearch">Advanced search</label>
+			<label index="zoraFlexFormBE.queryTitle">Zora Query</label>
+			<label index="zoraFlexFormBE.queryTabQuery">Zora Query</label>
+			
+			<label index="zoraQueryFE.queryTitle">Select Zora Query</label>
+		</languageKey>
+	</data>
+</T3locallang>

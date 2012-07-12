@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<T3DataStructure>
+  <sheets>
+    <sInputs>
+      <ROOT>
+	<TCEforms>
+	  <sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.sheetInputs</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+
+
+				  <settings.savedSearchId>
+				    <TCEforms>
+				      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.savedSearchId</label>  
+				      <config>
+					<type>select</type>
+					<items>
+					  <numIndex index="0">
+					    <numIndex index="0"></numIndex>
+					    <numIndex index="1">0</numIndex>
+					  </numIndex>
+					</items>
+					<foreign_table>tx_zora_domain_model_zora</foreign_table>
+					<foreign_table_where>
+					  AND  tx_zora_domain_model_zora.uid &lt; 30
+					</foreign_table_where>
+					<size>1</size>
+					<minitems>1</minitems>
+					<maxitems>1</maxitems>
+				      </config>
+				    </TCEforms>
+				  </settings.savedSearchId>
+
+
+
+
+	  <exampleString>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleString.label</label>
+	      <config>
+		<type>input</type>
+		<size>24</size>
+		<max>48</max>
+		<eval>trim</eval>
+	      </config>
+	    </TCEforms>
+	  </exampleString>
+	  <exampleDate>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleDate.label</label>
+	      <config>
+		<type>input</type>
+		<size>8</size>
+		<eval>date</eval>
+		<max>20</max>
+		<checkbox>1</checkbox>
+	      </config>
+	    </TCEforms>
+	  </exampleDate>
+	  <exampleArea>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleArea.label</label>
+	      <config>
+		<type>text</type>
+		<cols>24</cols>
+		<rows>3</rows>
+	      </config>
+	    </TCEforms>
+	  </exampleArea>
+	  <exampleCode>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleCode.label</label>
+	      <config>
+		<type>text</type>
+		<cols>35</cols>
+		<rows>8</rows>
+		<wrap>off</wrap>		
+	      </config>
+	    </TCEforms>
+	  </exampleCode>
+	</el>
+      </ROOT>
+    </sInputs>
+    <sRTE>    
+      <ROOT>
+	<TCEforms>
+	  <sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.sheetRTE</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+	  <exampleRTE>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleRTE.label</label>
+	      <config>
+		<type>text</type>
+		<cols>52</cols>
+		<rows>5</rows>
+	      </config>
+	      <defaultExtras>richtext[*]:rte_transform[mode=ts_css]</defaultExtras>
+	    </TCEforms>
+	  </exampleRTE>
+	</el>
+      </ROOT>      
+    </sRTE>
+    <sSelections>    
+      <ROOT>
+	<TCEforms>
+	  <sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.sheetSelections</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+	  <exampleSelection>
+	    <TCEforms>	
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleSelection.label</label>
+	      <config>
+		<type>select</type>
+		<items type="array">
+		  <numIndex index="0" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleSelection.label1</numIndex>
+		    <numIndex index="1">key1</numIndex>
+		  </numIndex>
+		  <numIndex index="1" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleSelection.label2</numIndex>
+		    <numIndex index="1">key2</numIndex>
+		  </numIndex>
+		  <numIndex index="3" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleSelection.label3</numIndex>
+		    <numIndex index="1">key3</numIndex>
+		  </numIndex>
+		</items>	
+	      </config>
+	    </TCEforms>
+	  </exampleSelection>	
+	  <exampleMultiselection>
+	    <TCEforms>	
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleMultiselection.label</label>
+	      <config>
+		<type>select</type>
+		<items type="array">
+		  <numIndex index="0" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleMultiselection.label1</numIndex>
+		    <numIndex index="1">key1</numIndex>
+		  </numIndex>
+		  <numIndex index="1" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleMultiselection.label2</numIndex>
+		    <numIndex index="1">key2</numIndex>
+		  </numIndex>
+		  <numIndex index="3" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleMultiselection.label3</numIndex>
+		    <numIndex index="1">key3</numIndex>
+		  </numIndex>
+		</items>	
+		<maxitems>3</maxitems>
+x		<size>3</size>
+		<multiple>1</multiple>
+		<selectedListStyle>width:150px</selectedListStyle>
+		<itemListStyle>width:150px</itemListStyle>
+	      </config>
+	    </TCEforms>
+	  </exampleMultiselection>
+	  <examplePagebrowser>
+	    <TCEforms>
+	      <exclude>1</exclude>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.examplePagebrowser.label</label>
+	      <config>
+		<type>group</type>
+		<internal_type>db</internal_type>
+		<allowed>pages</allowed>
+		<size>3</size>
+		<maxitems>22</maxitems>
+		<minitems>0</minitems>
+		<show_thumbs>1</show_thumbs>
+	      </config>
+	    </TCEforms>
+	  </examplePagebrowser>
+	  <exampleFilebrowser>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleFilebrowser.label</label>
+	      <config>
+		<type>group</type>
+		<internal_type>file</internal_type>
+		<allowed>tmpl,html</allowed>
+		<max_size>100</max_size>
+		<uploadfolder>uploads/</uploadfolder>
+		<maxitems>1</maxitems>
+		<size>1</size>
+		<selectedListStyle>Width:180px</selectedListStyle>
+	      </config>
+	    </TCEforms>
+	  </exampleFilebrowser>
+	  <exampleCheckbox>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleCheckbox.label</label>
+	      <config>
+		<type>check</type>
+	      </config>
+	    </TCEforms>
+	  </exampleCheckbox>
+	  <exampleRadio>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleRadio.label</label>
+	      <config>
+		<type>radio</type>
+		<items type="array">
+		  <numIndex index="0" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleRadio.label1</numIndex>
+		    <numIndex index="1">key1</numIndex>
+		  </numIndex>
+		  <numIndex index="1" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleRadio.label2</numIndex>
+		    <numIndex index="1">key2</numIndex>
+		  </numIndex>
+		  <numIndex index="3" type="array">
+		    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleRadio.label3</numIndex>
+		    <numIndex index="1">key3</numIndex>
+		  </numIndex>
+		</items>	
+	      </config>
+	    </TCEforms>
+	  </exampleRadio>
+	</el>
+      </ROOT>      
+    </sSelections>
+    <sDynamics>    
+      <ROOT>
+	<TCEforms>
+	  <sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.sheetDynamics</sheetTitle>
+	</TCEforms>
+	<type>array</type>
+	<el>
+	  <exampleQuery>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleQuery.label</label>  
+	      <config>
+		<type>select</type>
+		<items>
+		  <numIndex index="0">
+		    <numIndex index="0">--</numIndex>
+		    <numIndex index="1">0</numIndex>
+		  </numIndex>
+		</items>
+		<foreign_table>tx_zora_domain_model_zora</foreign_table>
+		<foreign_table_where>
+		  AND  tx_zora_domain_model_zora.uid &lt; 30
+		</foreign_table_where>
+		<size>1</size>
+		<minitems>0</minitems>
+		<maxitems>1</maxitems>
+	      </config>
+	    </TCEforms>
+	  </exampleQuery>
+	  <exampleFunction>
+	    <TCEforms>
+	      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.exampleFunction.label</label>  
+	      <config>
+		<type>select</type>
+		<items>
+		  <numIndex index="0">
+		    <numIndex index="0">--</numIndex>
+		    <numIndex index="1">0</numIndex>
+		  </numIndex>
+		</items>
+		<itemsProcFunc>tx_sbflexamples_itemFunctions->exampleFunction</itemsProcFunc>
+	      </config>
+	    </TCEforms>
+	  </exampleFunction>
+	</el>
+      </ROOT>      
+    </sDynamics>
+  </sheets>
+</T3DataStructure>
+

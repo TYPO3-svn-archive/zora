@@ -1,0 +1,15 @@
+plugin.tx_zora {
+	view {
+		# cat=plugin.tx_zora/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:zora/Resources/Private/Templates/
+		# cat=plugin.tx_zora/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:zora/Resources/Private/Partials/
+		# cat=plugin.tx_zora/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:zora/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_zora//a; type=string; label=Default storage PID
+		storagePid = 
+	}
+}
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

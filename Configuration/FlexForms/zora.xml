@@ -1,0 +1,97 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<main>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.tabTitle</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+				  <settings.queryType>
+				    <TCEforms>	
+				      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.queryTypeTitle</label>
+				      <config>
+					<type>select</type>
+					<items type="array">
+					  <numIndex index="0" type="array">
+					    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.queryTypeSavedSearch</numIndex>
+					    <numIndex index="1">savedSearch</numIndex>
+					  </numIndex>
+					  <numIndex index="1" type="array">
+					    <numIndex index="0">LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.queryTypeFullSearch</numIndex>
+					    <numIndex index="1">fullSearch</numIndex>
+					  </numIndex>
+					</items>	
+				      </config>
+				    </TCEforms>
+				  </settings.queryType>	
+
+				  <settings.savedSearchId>
+				    <TCEforms>
+				      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.savedSearchId</label>  
+				      <config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+				      </config>
+				    </TCEforms>
+				  </settings.savedSearchId>
+
+		  		<settings.queryID>
+						<TCEforms>
+							<label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.selectTableTitle</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+								  <numIndex index="0" type="array">
+								    <numIndex index="0">label1</numIndex>
+								    <numIndex index="1">key1</numIndex>
+								  </numIndex>
+								  <numIndex index="1" type="array">
+								    <numIndex index="0">label2</numIndex>
+								    <numIndex index="1">key2</numIndex>
+								  </numIndex>
+								  <numIndex index="3" type="array">
+								    <numIndex index="0">label3</numIndex>
+								    <numIndex index="1">key3</numIndex>
+								  </numIndex>
+								</items>	
+							</config>
+						</TCEforms>
+					</settings.queryID>
+
+					<settings.refreshTime>
+						<TCEforms>
+							<label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.refreshTime</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</settings.refreshTime>
+
+				  <settings.repositoryId>
+				    <TCEforms>
+				      <label>LLL:EXT:zora/Resources/Private/Language/locallang.php:tx_zora_domain_model_zora.savedSearchId</label>  
+				      <config>
+								<type>input</type>
+								<foreign_table>tx_zora_domain_model_zora</foreign_table>
+								<foreign_table_where>
+								  AND tx_zora_domain_model_zora.zora_plugin_id = 333	
+								</foreign_table_where>
+								<size>1</size>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+				      </config>
+				    </TCEforms>
+				  </settings.repositoryId>
+
+				</el>
+			</ROOT>
+		</main>
+	</sheets>
+</T3DataStructure>

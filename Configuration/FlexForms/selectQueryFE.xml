@@ -1,0 +1,27 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+		<description>Zoraquery FE plugin</description>
+	</meta>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:zora/Resources/Private/Language/locallang_ZoraFlexForm.xml:zoraQueryFE.sheetTitle</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+		  <settings.savedSearchId>
+		    <TCEforms>
+		      <label>LLL:EXT:zora/Resources/Private/Language/locallang_ZoraFlexForm.xml:zoraQueryFE.queryTitle</label>  
+		      <config>
+						<type>select</type>
+						<foreign_table>tx_zora_domain_model_zora</foreign_table>
+						<itemsProcFunc>tx_zora_utils->addFields</itemsProcFunc>
+						<size>1</size>
+						<minitems>1</minitems>
+						<maxitems>1</maxitems>
+		      </config>
+		    </TCEforms>
+		  </settings.savedSearchId>
+		</el>
+	</ROOT>
+</T3DataStructure>

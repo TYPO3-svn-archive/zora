@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Zora extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_zora_domain_model_zora">Zora</label>
+			<label index="tx_zora_domain_model_zora.title">Title of the query</label>
+			<label index="tx_zora_domain_model_zora.last_update">Last update (timestamp)</label>
+			<label index="tx_zora_domain_model_zora.zora_query_type">Query Type</label>
+			<label index="tx_zora_domain_model_zora.flex_form">Holds flexForm</label>
+			<label index="tx_zora_domain_model_zora.serialized">Holds converted html </label>
+		</languageKey>
+	</data>
+</T3locallang>

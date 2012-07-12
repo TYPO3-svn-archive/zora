@@ -1,0 +1,31 @@
+plugin.tx_zora {
+	view {
+		templateRootPath = {$plugin.tx_zora.view.templateRootPath}
+		partialRootPath = {$plugin.tx_zora.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_zora.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_zora.persistence.storagePid}
+	}
+}
+
+plugin.tx_zora._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-zora table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-zora table th {
+		font-weight:bold;
+	}
+
+	.tx-zora table td {
+		vertical-align:top;
+	}
+)
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

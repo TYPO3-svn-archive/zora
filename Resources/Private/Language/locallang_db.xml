@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'zora'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+            
+			<label index="tx_zora_domain_model_zora">Zora</label>
+			<label index="tx_zora_domain_model_zora.title">Title</label>
+			<label index="tx_zora_domain_model_zora.last_update">Last Update</label>
+			<label index="tx_zora_domain_model_zora.last_update.details">Last Update <i>Details</i></label>
+			<label index="tx_zora_domain_model_zora.zora_query_type">Zora Query Type</label>
+			<label index="tx_zora_domain_model_zora.flex_form">Flex Form</label>
+			<label index="tx_zora_domain_model_zora.serialized">Serialized</label>
+			<label index="tx_zora_domain_model_zora.refreshTime">Refresh Time in (sec)</label>
+			<label index="tx_zora_domain_model_zora.title">Search Title</label>
+			<label index="tx_zora_domain_model_zora.title.details">details Search in Title</label>
+
+		</languageKey>
+	</data>
+</T3locallang>

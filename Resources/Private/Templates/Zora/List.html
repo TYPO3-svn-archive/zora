@@ -1,0 +1,79 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+	<f:flashMessages renderMode="ul" />
+	<f:if condition="{ar.listQuery} == 1"><f:then><p>{ar.query}</p></f:then></f:if>
+	<f:if condition="{ar.error} == 1"><f:then>No results!</f:then></f:if>
+	<f:if condition="{ar.error} == 0">
+			Last updated <f:format.date format="d.m.Y - H:i:s">@{ar.lastUpdate}</f:format.date>
+			Results: {ar.count}
+					<div class="ep_search_results">
+						<table>
+							<tbody>
+								<f:for each="{ar.documents}" as="doc">
+									<f:if condition="{doc.docType} == 1">
+										<tr class="ep_search_result">
+											<td class="ep_search_result_number">{doc.count}.</td>
+											<td><f:for each="{doc.authors}" as="author"
+													iteration="iterator">
+													<a href="{author.link}" class="zora"> <span
+														class="person_name">{author.author}</span></a>
+													<f:if condition="{iterator.isLast}">
+														<f:then></f:then>
+														<f:else>;</f:else>
+													</f:if>
+				
+												</f:for> {doc.date} <a href="{doc.link}" class="zora" title="{doc.abstract}"><em>{doc.title}</em></a>
+												{doc.publication}, {doc.volume}({doc.number}):{doc.pageRange}.
+												{doc.textStatus}</td>
+											<td align="right" style="padding-right: 0.5em"><a
+												href="{doc.link}" alt="{doc.altText}"> <f:if
+														condition="{doc.format}==1">
+														<img src="{f:uri.resource(path:'Icons/application_pdf.png')}"
+															class="ep_doc_icon" width="50" />
+													</f:if>
+											</a></td>
+										</tr>
+									</f:if>
+									<f:if condition="{doc.docType} == 2">
+										<tr class="ep_search_result">
+											<td class="ep_search_result_number">{doc.count}.</td>
+											<td><f:for each="{doc.editors}" as="author"
+													iteration="iterator">
+													<a href="{author.link}" class="zora"> <span
+														class="person_name">{author.author}</span></a>
+													<f:if condition="{iterator.isLast}">
+														<f:then></f:then>
+														<f:else>;</f:else>
+													</f:if>
+				
+												</f:for> ({doc.date}). <a href="{doc.link}" class="zora" title="{doc.abstract}"><em>{doc.title}</em></a>
+												In {doc.bookTitle}. {doc.placeOfPub}, {doc.pageRange}.
+												{doc.textStatus}</td>
+											<td align="right" style="padding-right: 0.5em"><a
+												href="{doc.link}" alt="{doc.altText}"> <f:if
+														condition="{doc.format}==1">
+														<img src="{f:uri.resource(path:'Icons/application_pdf.png')}"
+															class="ep_doc_icon" width="50" />
+													</f:if>
+											</a></td>
+										</tr>
+									</f:if>
+								</f:for>
+							</tbody>
+						</table>
+					</div>
+	</f:if>
+</f:section>
+
